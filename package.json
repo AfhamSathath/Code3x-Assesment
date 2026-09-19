@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "firebase:login": "firebase login",
+    "firebase:login": "firebase login --no-localhost",
     "firebase:deploy": "firebase deploy"
   },
   "dependencies": {
